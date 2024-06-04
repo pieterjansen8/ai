@@ -1,0 +1,18 @@
+{
+  "name": "virtual-assistent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "module": "google/generative-ai",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "openai": "^4.47.2"
+  }
+}

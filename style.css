@@ -1,0 +1,27 @@
+html{
+    background-color: #323232;
+}
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#speakbutton{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-size:15px;
+    transition: all 200ms;
+}
+#speakbutton:active{
+    height: 40px;
+    width: 350px;
+    font-size:20px;
+}
+#speakbutton:hover{
+    height: 37px;
+    width: 340;
+    font-size: 18px;
+}
