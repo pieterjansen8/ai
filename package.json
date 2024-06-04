@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "module": "google/generative-ai",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.12.0",
+    "electron": "^30.0.9",
     "openai": "^4.47.2"
   }
 }
